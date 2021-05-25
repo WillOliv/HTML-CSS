@@ -1,0 +1,64 @@
+body{
+background: gray;
+padding: 5px;
+margin: 5px;
+border: 2px solid black;
+border-radius: 0px;}
+
+section{
+background: white;
+padding: 0px 5px 5px 5px;
+margin: 0px 5px 5px 5px;
+border: 2px solid gray;
+border-radius: 5px;}
+
+footer{
+background: pink;
+margin: 5px;
+border: 1px dashed black;}
+
+.image{
+padding: 3px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+max-width: 300px;
+display: block;}
+
+.logo{
+background: green;
+padding: 30px;
+margin: 10px;
+border-radius: 30px;
+font-size: 30px;
+font-family: fantasy;
+font-style: italic;
+font-weight: lighter;}
+
+.tema{
+margin: 5px 5px 10px 5px;
+font-size: 25px;
+font-family: monospace;
+font-weight: lighter;
+text-decoration: underline;}
+
+.titulo{
+margin: 10px 5px 5px 5px;
+font-size: 18px;
+font-family: arial;
+text-transform: capitalize}
+
+.paragrafo{
+padding: 0px;
+margin: 5px;
+border: 0px solid yellow;
+font-size: 14px;
+font-family: serif;}
+
+.links{
+color: black;
+list-style-type: none;
+margin-left: -30px;
+font-size: 16px;
+font-style: italic}
+	
