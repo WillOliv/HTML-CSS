@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+:root{
+    --dark_color : #0F241D;
+    --mid_color : #69B99D;
+    --light_color : #CCF4E6;
+    --whiter_color : #F9F9F9;
+    --text_color : #767676;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*************** Presets ***************/
+
+h1{
+    color: var(--dark_color);
+
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 1.87rem;
+
+    margin-bottom: 1rem;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+section{
+    padding: 5rem 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.button{
+    background-color: var(--mid_color);
+    color: var(--whiter_color);
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+
+    display: inline-flex;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0 2rem;
+    border-radius: 0.25rem;
+    transition: background 0.3s;
+}
+
+.button:hover{
+    background: var(--light_color);
+}
+
+/*************** Body ***************/
+
+body{
+    background-color: var(--whiter_color);
+    color: var(--text_color);
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.Main{
+    width: 23.43rem;
+    margin-top: 4.5rem;
+}
+
+.Header{
+    height: 4.5rem;
+    max-width: 23.43rem;;
+    border-bottom: 1px solid rgb(228, 228, 228);
+
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: var(--whiter_color);
+    top: 0;
+    left: 0;
+}
+
+.Header span{
+    color: var(--mid_color);
+}
+
+.Header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+
+.Header .container h1{
+    margin-top: 1rem;
+}
+
+.Home{
+    overflow: hidden;
+}
+
+.Home .container{
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+  }
+
+.Home .image{
+    position: relative;
+}
+
+.Home .image::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--light_color);
+    top: -16.8%;
+    left: 16.7%;
+    z-index: 0;
+}
+
+.Home .image img{
+    position: relative;
+    right: 2.93rem;
+}
+
+.Home .image img,
+.Home .image::before{
+    border-radius: 0.25rem;
+}
+
+.Home .text{
+    text-align: center;
+    margin: 0 1.5rem;
+}
+
+.divider-1{
+    height: 1px;
+    background: linear-gradient(270deg, #69B99D 0%, #CCF4E6 100%);
+}
+

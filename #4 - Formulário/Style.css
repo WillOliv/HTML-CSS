@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+body{
+    background: linear-gradient(to top, rgb(85, 22, 148), rgb(117, 22, 213), rgb(85, 22, 148));
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_box{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    background: white;
+    min-width: 30vw;
+    min-height: 35vh;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    position: relative;
+}
+
+.input-field:first-child{
+    margin-bottom: 15px;
+}
+
+.input-field input{
+    color: rgba(0, 0, 0, 0.7);
+    outline: none;
+    font-size: 10px;
+    width: 100%;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input-field .underline::before{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+}
+
+form input[type="submit"]{
+    background: linear-gradient(to top, rgb(172, 41, 145), rgb(103, 36, 161));
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+form input[type="submit"]:hover {
+    background: linear-gradient(to bottom, rgb(172, 41, 145), rgb(103, 36, 161));
+    letter-spacing: 0.5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.footer span{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 8px;
+    text-align: center;
+}
+
+.media-field{
+    cursor: pointer;
+    width: 100%;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.media-field a{
+    color: white;
+    text-decoration: none;
+}
+
+.media-field i{
+    width: 15px;
+    margin: 5px;
+}
+
+.google{
+    background: linear-gradient(to right, #56a7f2, #468aca);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.facebook{
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    border-radius: 3px;
+    padding-right: 5px;
+}
